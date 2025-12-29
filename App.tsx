@@ -378,8 +378,8 @@ const App: React.FC = () => {
               {/* Navigation Buttons */}
               <div className="mt-6 md:mt-8 flex items-center gap-4 w-full max-w-md justify-between">
                  <button 
-                  onClick={handleNext}
-                  className="p-4 rounded-full bg-blue dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm text-slate-400 hover:text-blue-600 hover:border-blue-200 active:scale-95 transition-all"
+                  onClick={handlePrev}
+                  className="p-4 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm text-slate-400 hover:text-blue-600 hover:border-blue-200 active:scale-95 transition-all"
                   aria-label="Previous card"
                 >
                   <svg className="w-6 h-6 rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
@@ -408,8 +408,8 @@ const App: React.FC = () => {
                 </button>
 
                 <button 
-                  onClick={handlePrev}
-                  className="p-4 rounded-full bg-white-600 shadow-lg shadow-blue-200 dark:shadow-none text-white hover:bg-blue-700 active:scale-95 transition-all"
+                  onClick={handleNext}
+                  className="p-4 rounded-full bg-blue-600 shadow-lg shadow-blue-200 dark:shadow-none text-white hover:bg-blue-700 active:scale-95 transition-all"
                   aria-label="Next card"
                 >
                   <svg className="w-6 h-6 rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
